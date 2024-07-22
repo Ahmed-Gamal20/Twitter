@@ -1,0 +1,19 @@
+
+@media screen and (min-width:500px) {
+    section {
+        width: 65%;
+        
+    }
+}
+
+
+
+@media screen and (min-width:1024px){
+    section {
+        width: 50%;
+        
+    }
+}
+*{
+    background:#000;
+}

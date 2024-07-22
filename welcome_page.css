@@ -1,0 +1,39 @@
+/* Custom styles */
+body {
+    padding-top: 60px;
+    background-color: black;
+    color:white; 
+  }
+  
+
+
+
+  .or::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 35%;
+  transform: translateX(-50%);
+  right: -50%;
+  height: 1px;
+  background-color: #333;
+}
+.or span{
+    text-align: center;
+    left: 30%;
+  position: relative;
+  z-index: 10;
+  top: -4px;
+  /* top: 55%; */
+  background-color: #000;
+  border-radius: 50%;
+
+}
+.or {
+  padding: 0 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #000;
+  position: relative;
+}
